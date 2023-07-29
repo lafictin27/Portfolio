@@ -82,12 +82,12 @@ const Navbar = () => {
             placement="right"
             closable
             onClose={onClose}
-            closeIcon={
+            closeIcon={(
               <CloseCircleTwoTone
                 style={{ fontSize: "26px", color: "#08c" }}
                 className="hover:scale-[1.3] transition duration-200"
               />
-            }
+              )}
             open={visible}
             className="text-center  text-white opacity-90 !bg-gradient-to-r !to-black !from-zinc-900 "
             headerStyle={{
