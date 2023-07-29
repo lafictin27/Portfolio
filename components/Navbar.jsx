@@ -37,7 +37,6 @@ const Navbar = () => {
           height={40}
           priority
         />
-
         <div className=" sm:flex sm:gap-6 hidden gap-2 lg:gap-32 text-[16px] leading-[45.24px] text-white">
           <AnchorLink href="#about">
             <h3 className="hover:font-extrabold hover:drop-shadow-xl transition duration-300 cursor-pointer">
