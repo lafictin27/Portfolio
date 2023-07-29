@@ -52,6 +52,7 @@ const Contact = () => {
                   key={social.name}
                   rel="noreferrer"
                 >
+                  
                   <img
                     src={social.url}
                     alt={social.name}
