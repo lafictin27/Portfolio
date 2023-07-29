@@ -27,7 +27,7 @@ const Contact = () => {
             <a
               type="button"
               className="flex hover:scale-105 transition duration-200 hover:font-bold items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]"
-              href="mailto:off.harsh07@gmail.com"
+              href="mailto:off.vanshds27@gmail.com"
               target="_blank"
               rel="noreferrer noopener"
             >
@@ -45,7 +45,7 @@ const Contact = () => {
                 <a
                   href={
                     social.name === "Gmail"
-                      ? "mailto:your_email@example.com"
+                      ? "mailto:off.vanshds27@gmail.com"
                       : social.link
                   }
                   target="_blank"
